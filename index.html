@@ -10,41 +10,40 @@
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="./style/style.css">
     <title>Document</title>
-
-    <style>
-        * {
-            
-        }
-    </style>
 </head>
 <body>
     <div class="container">
         <header class="header">
             <a class="header__logo" href="#">
-                <img class="header__logo--img" src="" alt="LOGO">
+                <img class="header__logo--img" src="./img/Logo.png" alt="LOGO">
             </a>
             <nav class="header__menu">
-                <input class="header__menu--input" type="checkbox" name="" id="">
+                <input class="header__menu--input" type="checkbox" name="checkbox" id="checkbox">
                 <span class="header__menu--span"></span>
                 <span class="header__menu--span"></span>
                 <span class="header__menu--span"></span>
                 <ul class="header__elements">
-                    <li class="header-list">
-                        <a class="header-list__items" href="#">All</a>
+                    <li class="header__list">
+                        <a class="header__list--items" href="#">All</a>
                     </li>
-                    <li class="header-list">
-                        <a class="header-list__items" href="#">Brandin
-                            g</a></li>
-                    <li class="header-list">
-                        <a class="header-list__items" href="#">Web</a>
+                    <li class="header__line"></li>
+                    <li class="header__list">
+                        <a class="header__list--items" href="#">Branding</a>
                     </li>
-                    <li class="header-list">
-                        <a class="header-list__items" href="#">Photogr
-                            aphy</a></li>
-                    <li class="header-list">
-                        <a class="header-list__items" href="#">App</a>
+                    <li class="header__line"></li>
+                    <li class="header__list">
+                        <a class="header__list--items" href="#">Web</a>
                     </li>
-                    <li class="header-list">
+                    <li class="header__line"></li>
+                    <li class="header__list">
+                        <a class="header__list--items" href="#">Photography</a>
+                    </li>
+                    <li class="header__line"></li>
+                    <li class="header__list">
+                        <a class="header__list--items" href="#">App</a>
+                    </li>
+                    <li class="header__line"></li>
+                    <li class="header__list mobile">
                         <button class="header__button" type="submit">
                             <i class="header__button--icon fas fa-search"></i>
                         </button>
@@ -62,37 +61,72 @@
             </section>
             <section class="main__grid">
                 <div class="main__views">
-                    <i class="main__vies--icon fas fa-th-large"></i>
-                    <i class="main__vies--icon fas fa-equals"></i>
+                    <i class="main__views--icon fas fa-th-large"></i>
+                    <i class="main__views--icon fas fa-equals"></i>
                 </div>
                 <ul class="main__options">
                     <li class="main__categories">
                         <a class="main__categories--items" href="#">All</a>
                     </li>
                     <li class="main__categories">
-                        <a class="main__categories--items" href="#">Brandin
-                            g</a></li>
+                        <a class="main__categories--items" href="#">Branding</a>
+                    </li>
                     <li class="main__categories">
                         <a class="main__categories--items" href="#">Web</a>
                     </li>
                     <li class="main__categories">
-                        <a class="main__categories--items" href="#">Photogr
-                            aphy</a></li>
+                        <a class="main__categories--items" href="#">Photography</a>
+                    </li>
                     <li class="main__categories">
                         <a class="main__categories--items" href="#">App</a>
                     </li>
                 </ul>
                 <div class="main__collaction">
-                    <img class="main__collaction--img" src="" alt="Image1">
-                    <img class="main__collaction--img" src="" alt="Image2">
-                    <img class="main__collaction--img" src="" alt="Image3">
-                    <img class="main__collaction--img" src="" alt="Image4">
-                    <img class="main__collaction--img" src="" alt="Image5">
-                    <img class="main__collaction--img" src="" alt="Image6">
-                    <img class="main__collaction--img" src="" alt="Image7">
-                    <img class="main__collaction--img" src="" alt="Image8">
-                    <img class="main__collaction--img" src="" alt="Image9">
-                    <img class="main__collaction--img" src="" alt="Image10">
+                    <div class="level-1 main__collaction-container">
+                        <img class="main__collaction--img" src="./img/landing.webp" alt="">
+                    </div>
+                    <div class="level-2 main__collaction-container">
+                        <img class="main__collaction--img" src="./img/tshirt.webp" alt="">
+                    </div>
+                    <div class="level3 main__collaction-container">
+                        <img class="main__collaction--img" src="./img/house.webp" alt="">
+                    </div>
+                    <div class="level-1 main__collaction-container">
+                        <img class="main__collaction--img" src="./img/landing.webp" alt="">
+                    </div>
+                    <div class="level-2 main__collaction-container">
+                        <img class="main__collaction--img" src="./img/tshirt.webp" alt="">
+                    </div>
+                    <div class="level3 main__collaction-container">
+                        <img class="main__collaction--img" src="./img/house.webp" alt="">
+                    </div>
+                    <div class="level-1 main__collaction-container">
+                        <img class="main__collaction--img" src="./img/landing.webp" alt="">
+                    </div>
+                    <!--<div class="level-2 main__collaction-container">
+                        <img class="main__collaction--img" src="./img/tshirt.webp" alt="">
+                    </div>
+                    <div class="level3 main__collaction-container">
+                        <img class="main__collaction--img" src="./img/house.webp" alt="">
+                    </div>
+                     <div class="level-1 main__collaction-container">
+                        <img class="main__collaction--img" src="./img/landing.webp" alt="">
+                    </div>
+                    <div class="level-2 main__collaction-container">
+                        <img class="main__collaction--img" src="./img/tshirt.webp" alt="">
+                    </div>
+                    <div class="level3 main__collaction-container">
+                        <img class="main__collaction--img" src="./img/house.webp" alt="">
+                    </div>
+                    <div class="level-1 main__collaction-container">
+                        <img class="main__collaction--img" src="./img/landing.webp" alt="">
+                    </div>
+                    <div class="level-2 main__collaction-container">
+                        <img class="main__collaction--img" src="./img/tshirt.webp" alt="">
+                    </div>
+                    <div class="level3 main__collaction-container">
+                        <img class="main__collaction--img" src="./img/house.webp" alt="">
+                    </div> -->
                 </div>
                 <button class="main__button" type="submit">Show Me More</button>
             </section>
@@ -101,11 +135,11 @@
             <div class="footer__container">
                 <p class="footer__container--text">© 2016 - <span>Sneak</span> Akk Rigth Reserved</p>
                 <div class="footer__social">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fas fa-basketball-ball"></i>
-                    <i class="fab fa-google-plus-g"></i>
-                    <i class="fab fa-youtube"></i>
+                    <i class="footer__social--icon fab fa-facebook-f"></i>
+                    <i class="footer__social--icon fab fa-twitter"></i>
+                    <i class="footer__social--icon fas fa-basketball-ball"></i>
+                    <i class="footer__social--icon fab fa-google-plus-g"></i>
+                    <i class="footer__social--icon fab fa-youtube"></i>
                 </div>
             </div>
         </footer>
