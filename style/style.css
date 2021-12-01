@@ -193,6 +193,7 @@ body .container .main .main__principal .main__slider {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
 }
 
 body .container .main .main__principal .main__slider .main__slider--title {
@@ -383,9 +384,163 @@ body .container .footer .footer__container .footer__social {
 body .container .footer .footer__container .footer__social .footer__social--icon {
   color: #c2cfd7;
   margin-right: 30px;
+  cursor: pointer;
 }
 
 body .container .footer .footer__container .footer__social .fa-youtube {
   margin-right: 0;
+}
+
+@media screen and (min-width: 576px) {
+  body .container .header .header__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .container .header .header__logo .header__logo--img {
+    width: 85%;
+  }
+  body .container .header .header__menu {
+    display: unset;
+  }
+  body .container .header .header__menu .header__menu--input {
+    display: none;
+  }
+  body .container .header .header__menu .header__menu--span {
+    display: none;
+  }
+  body .container .header .header__menu .header__elements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: unset;
+    -webkit-box-direction: unset;
+        -ms-flex-direction: unset;
+            flex-direction: unset;
+    width: unset;
+    height: unset;
+    position: unset;
+  }
+  body .container .header .header__menu .header__elements .header__line {
+    display: none;
+  }
+  body .container .header .header__menu .header__elements .mobile {
+    display: unset;
+  }
+  body .container .header .header__menu .header__elements .header__list {
+    margin-bottom: unset;
+    margin-right: 20px;
+  }
+  body .container .header .header__menu .header__elements .header__list .header__list--items {
+    color: #838383;
+    font-size: 0.65em;
+    letter-spacing: 1px;
+  }
+  body .container .header .header__menu .header__elements .header__list .header__button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  body .container .header .header__menu .header__elements .header__list .header__button .header__button--icon {
+    color: #ff5672;
+  }
+  body .container .main .main__principal .main__slider .main__slider--title {
+    font-size: 1.67em;
+  }
+  body .container .main .main__principal .main__slider .main__slider--text {
+    width: 65%;
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body .container .header .header__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .container .header .header__logo .header__logo--img {
+    width: 85%;
+  }
+  body .container .header .header__menu {
+    display: unset;
+  }
+  body .container .header .header__menu .header__menu--input {
+    display: none;
+  }
+  body .container .header .header__menu .header__menu--span {
+    display: none;
+  }
+  body .container .header .header__menu .header__elements .header__list {
+    margin-right: 30px;
+  }
+  body .container .header .header__menu .header__elements .header__list .header__list--items {
+    font-size: 0.9em;
+  }
+  body .container .header .header__menu .header__elements .header__list .header__button .header__button--icon {
+    font-size: 18px;
+  }
+  body .container .main {
+    -ms-grid-rows: 95vh auto;
+        grid-template-rows: 95vh auto;
+  }
+  body .container .main .main__principal .main__slider .main__slider--text {
+    width: 50%;
+  }
+  body .container .main .main__grid .main__options .main__categories {
+    margin-right: 25px;
+  }
+  body .container .main .main__grid .main__options .main__categories .main__categories--items {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body .container .header {
+    padding: 20px 60px;
+  }
+  body .container .header .header__logo .header__logo--img {
+    width: 100%;
+  }
+  body .container .header .header__menu .header__elements .header__list {
+    margin-right: 40px;
+  }
+  body .container .header .header__menu .header__elements .header__list .header__list--items {
+    font-size: 1.1em;
+  }
+  body .container .main .main__principal .main__slider .main__slider--title {
+    font-size: 1.97em;
+  }
+  body .container .main .main__principal .main__slider .main__slider--text {
+    font-size: 0.93em;
+  }
+  body .container .main .main__grid .main__options .main__categories {
+    margin-right: 40px;
+  }
+  body .container .main .main__grid .main__options .main__categories .main__categories--items {
+    font-size: 1.1em;
+  }
+  body .container .footer .footer__container .footer__container--text {
+    font-size: 0.8em;
+  }
+  body .container .footer .footer__container .footer__social .footer__social--icon {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body .container .header .header__menu .header__elements .header__list {
+    margin-right: 60px;
+  }
+  body .container .main .main__grid .main__collaction {
+    max-width: 1040px;
+    margin: 0 auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
